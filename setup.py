@@ -11,7 +11,7 @@ except ImportError:
     use_setuptools()
     from setuptools import setup
 
-install_requires = ["Django>=2.2"]
+install_requires = ["Django==1.11.3"]
 
 tests_require = [
     "pysolr>=3.7.0",
